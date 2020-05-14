@@ -26,8 +26,7 @@
     End Sub
 
     Private Sub Form2()
-        A = Val(TextBox1.Text)
-        B = Val(TextBox2.Text)
+
         Do While A <> 0 And B <> 0
             If A > B Then
                 A = A Mod B

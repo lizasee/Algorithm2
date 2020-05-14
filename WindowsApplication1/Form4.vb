@@ -5,12 +5,12 @@
 
     Private Sub ShowArray(mas As Array)
         For i = 0 To 5
-            DataGridView1.Columns.Add("", "")
-            DataGridView1.Rows.Insert(i)
+            DataGridView2.Columns.Add("", "")
+            DataGridView2.Rows.Insert(i)
         Next
         For i = 0 To 5
             For j = 0 To 5
-                DataGridView1.Item(i, j).Value = mas(i, j)
+                DataGridView2.Item(i, j).Value = mas(i, j)
             Next
         Next
     End Sub
